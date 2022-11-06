@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>OpenWeatherMap Api</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="ss.css">
+</head>
+<body>
+  <!-- <div class="main">
+    <div class="header">
+      <h1>OpenWeatherMap API</h1>
+      <p>Enter any city name in the input box below to get the data</p>
+    </div> -->
+    <header class="headercontainer"><br>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monoton">
+    <center><strong><font size = "7"><p>Weather Paragliding</p></font></strong></center>
+    <center><strong><font size = "5"><p>Home</p></font></strong></center>
+    <br>
+    </header>
+    <div class="topnav">
+    <a href="weather.html"><button class="button button1" ><strong>Home</strong></button></a>
+      <a href="index.html"><button class="button button1" ><strong>Info</strong></button></a>
+      <a href="HowToW.html"><button class="button button1" ><strong>How to</strong></button></a>
+      <a href="#" class="button button2" onclick="self.close();">Exit</a>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <center>
+      <article class="infocontainer">
+        <strong><font size ="5"><p>List of cities:</p></font></strong>
+      </article>
+    </center>
+    <br>
+<center>
+  <table id="paraglide">
+    <tr>
+      <th>City</th>
+      <th>State</th>
+    </tr>
+    <tr>
+      <td>Kota Kinabalu</td>
+      <td>Sabah</td>
+    </tr>
+    <tr>
+      <td>Ranau</td>
+      <td>Sabah</td>
+    </tr>
+    <tr>
+      <td>Banting</td>
+      <td>Selangor</td>
+    </tr>
+    <tr>
+      <td>Bukit Bubus</td>
+      <td>Terengganu</td>
+    </tr>
+  </table>
+  <br>
+  <br>
+  <center>
+    <article class="infocontainer">
+      <strong><font size ="5"><p>Weather Forecast:</p></font></strong>
+    </article>
+  </center>
+    <!--To search weather forecast-->
+    <div class="input">
+      <input type="text" placeholder="Enter the city" class="input_text">
+      <input type="submit" value="Submit" class="submit">
+    </div>
+    <!--output data weather forecast-->
+  <div class="container">
+    <div class="card">
+      <h1 class="name" id="name"></h1>
+      <p class="desc"></p>
+      <p class="temp"></p>
+      <p class="deg"></p>
+      <p class="speed"></p>
+      <p class="humidity"></p>
+      <p class="pressure"></p>
+      <p class="clouds"></p>
+    </div>
+  </div>
+</center>
+<script src="weather.js"></script>
+<br>
+</body>
+</html>
+

@@ -1,0 +1,56 @@
+/*not use*/
+.headercontainer{
+    width:100%;
+    height:100%;
+    background:  rgba(44, 111, 0, 0.986);
+    text-align:center;
+    color:floralwhite;
+    font-family: sans-serif;
+    padding:10px;
+}
+.articlecontainer{
+    width:100%;
+    height:500%;
+    background: rgb(223, 245, 218);
+    font-family: sans-serif;
+    padding:10px;
+}
+.footercontainer{
+    width:100%;
+    height:50px;
+    background:rgba(44, 111, 0, 0.986);
+    text-align:center;
+    color:rgb(254, 251, 251);
+    font-family: sans-serif;
+    padding:10px;
+}
+.floatleft{
+    float:left;
+    width:100px;
+    height:100px;
+    margin-left:15px;		
+}
+.floatcenter{
+    display:block;
+    width:100px;
+    height:100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.topnav {  
+    overflow: hidden;
+    background-color: rgb(130, 198, 85);
+}
+/* Navbar links */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 15px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav a:hover {
+    background-color:rgb(62, 120, 57);
+    color: rgb(253, 251, 251);
+}

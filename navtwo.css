@@ -1,0 +1,176 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    font-family: "Nunito",sans-serif;
+    background: #f8f8f8;
+  }
+/* style for search input and box */
+  .input{
+    text-align: center;
+    margin: 30px auto;
+  }
+  input[type="submit"]{
+    padding: 15px 30px;
+    background: #e7e7e7;
+    border: none;
+    border-radius: 1px;
+    font-family: "Nunito",sans-serif;
+    font-weight:bold;
+    font-size: 20px;
+  }
+  .input input[type="text"]{
+    width: 600px;
+    height: 55px;
+    padding: 5px 10px;
+    background: #e7e7e7;
+    border: none;
+    border-radius: 1px;
+    font-family: "Nunito",sans-serif;
+    font-weight:bold;
+    font-size: 20px;
+  }
+  .card{
+    width: 60%;
+    background: #e7e7e7;
+    height: 60vh;
+    margin: 10px auto;
+    border-radius: 2px;
+    background: rgba(243, 243, 243, 0.6);
+  }
+  .headercontainer{
+    font-family: "Monoton", sans-serif;
+    font-size: 14px;
+    background: #410334;
+    height:24%;
+    width:100%
+  }
+  .headercontainer p{
+    color:#e7e7e7;
+  }
+  .close{
+    float: right;
+    margin-top: -2px;
+    cursor: pointer;
+    margin-right: 20px;
+  }
+  .card h1{
+    font-family: "Monoton", sans-serif;
+    padding: 5px 0;
+    text-align: center;
+  }
+  .card p{
+    text-align: center;
+    margin:10px 0;
+    font-size:20px;
+    color:black;
+  }
+  body {
+    background-image: url('city8.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+  }
+/* Style for table */
+  #paraglide {
+    font-family: "Nunito",sans-serif;
+    border-collapse: collapse;
+    width: 40%;
+    background: rgba(243, 243, 243, 0.6);
+  }
+  #paraglide td, #paraglide th {
+    border: none;
+    padding: 7px;
+  }
+  #paraglide tr:nth-child(even){background-color: #f2f2f2;}
+  #paraglide th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background: #5f054e99;
+    color: white;
+  }
+/*Style for button */
+  .button1 {
+    color: rgb(255, 255, 255); 
+    background-color:rgb(123, 0, 107);
+    border: 2px solid  rgb(123, 0, 107);
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    float:left;
+  }
+  .button1:hover {
+    background-color: rgb(249, 202, 243); 
+    border: 2px solid  rgb(94, 0, 82);
+    color: rgb(0, 0, 0);
+  }
+  .button2 {
+    color: rgb(255, 255, 255); 
+    background-color:rgb(123, 0, 107);
+    border: 2px solid  rgb(123, 0, 107);
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    float:right;
+  }
+  .button2:hover {
+    background-color: rgb(249, 202, 243); 
+    border: 2px solid  rgb(94, 0, 82);
+    color:black;
+  }
+/*Style for information box */
+  .infocontainer{
+    padding: 16px 32px;
+    padding-bottom: 16px 32px;
+    font-family: "Nunito",sans-serif;
+    font-size: 14px;
+    background: rgba(45, 3, 43, 0.6);
+    color: rgb(0, 0, 0);
+    border-top: rgba(45, 3, 43, 0.6);
+    border-bottom: rgba(45, 3, 43, 0.6);
+    height:40%;
+    width:100%
+  }
+  .infocontainer p{
+    color:#e7e7e7;
+  }
+  .infocontainertwo{
+    padding: 16px 32px;
+    padding-bottom: 16px 32px;
+    font-family: "Nunito",sans-serif;
+    font-size: 14px;
+    background: rgba(45, 3, 43, 0.6);
+    color: rgb(8, 7, 7);
+    border-top: rgba(45, 3, 43, 0.6);
+    border-top: rgba(45, 3, 43, 0.6);
+    height:30%;
+    width:100%
+  }
+  .infocontainerthree{
+    padding: 16px 32px;
+    font-family: "Nunito",sans-serif;
+    font-size: 14px;
+    background: rgba(45, 3, 43, 0.6);
+    color: rgb(8, 7, 7);
+    background: rgba(45, 3, 43, 0.6);
+    height:15%;
+    width:100%
+  }
+  textarea {
+    resize: none;
+  }
+.topnav {
+    overflow: hidden;
+    background: rgba(45, 3, 43, 0.6);
+  }

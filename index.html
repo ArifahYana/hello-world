@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>CRUD App</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="photon.min.css" />
+    <link rel="stylesheet" href="navtwo.css" />
+  </head>
+  <body>
+    <header class="headercontainer">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monoton">
+      <br>
+      <center><strong><font size = "7"><p>Weather Paragliding</p></font></strong></center>
+      <center><strong><font size = "5"><p>Information</p></font></strong></center>
+      </header>
+      <div class="topnav">
+          <a href="weather.html"><button class="button button1" ><strong>Home</strong></button></a>
+          <a href="index.html"><button class="button button1" ><strong>Info</strong></button></a>
+          <a href="HowToI.html"><button class="button button1" ><strong>How to</strong></button></a>
+        </div>
+    <br>
+    <br>
+    <br>
+    <article class="infocontainer">
+    <div class="mainWrapper">
+      <!--enter data needed in box-->
+      <form>
+        <div class="form-group">
+          <label><p>File name</p></label>
+          <input id="fileName" type="text" class="form-control" placeholder="File Name">
+        </div>
+        <div class="form-group">
+          <label><p>Content</p></label>
+          <textarea id="fileContents" class="form-control" rows="5" placeholder="Content"></textarea>
+        </div>
+      </form>
+      <br>
+      <br>
+      <br>
+    </article>
+    <!--Button options-->
+    <article class="infocontainertwo">
+      <button id="btnCreate" class="btn btn-default">Create</button>
+      <button id="btnRead" class="btn btn-default">Read</button>
+      <button id="btnDelete" class="btn btn-default">Delete</button>
+      <button id="btnUpdate" class="btn btn-default">Update</button>
+    </article>
+    </div>
+    <script src="main.js">
+    </script>
+    </body>
+    </html>
